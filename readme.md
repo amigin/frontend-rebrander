@@ -8,17 +8,17 @@ To run the script please specify the comman like:
 
 ## Supported placeholders ##
 
-* ${BrandName}
-* ${CompanyUrl}
-* ${SupportEmail}
-* ${GitHubUrl}
-* ${favicon16.png}
-* ${favicon32.png}
-* ${favicon16.ico}
-* ${safari-pinned-tab.svg}
-* ${logo.ios.svg}
-* ${logo.android.svg}
-* ${logo.svg}
-* ${logo.png}
-* ${logo-white.svg}
-* ${apple-touch-icon.png}
+* %BrandName%
+* %CompanyUrl%
+* %SupportEmail%
+* %GitHubUrl%
+* %favicon16.png%
+* %favicon32.png%
+* %favicon16.ico%
+* %safari-pinned-tab.svg%
+* %logo.ios.svg%
+* %logo.android.svg%
+* %logo.svg%
+* %logo.png%
+* %logo-white.svg%
+* %apple-touch-icon.png%
