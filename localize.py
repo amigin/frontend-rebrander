@@ -43,23 +43,41 @@ def Localize(file_name):
 
     text = text.replace("%favicon16.ico%", localizationInfo["favicon16.ico"])
 
-    text = text.replace("%safari-pinned-tab.svg%",
-                        localizationInfo["safari-pinned-tab.svg"])
+    text = text.replace("%safari-pinned-tab.svg%", localizationInfo["safari-pinned-tab.svg"])
 
     text = text.replace("%logo.ios.svg%", localizationInfo["logo.ios.svg"])
 
-    text = text.replace("%logo.android.svg%",
-                        localizationInfo["logo.android.svg"])
+    text = text.replace("%logo.android.svg%", localizationInfo["logo.android.svg"])
 
     text = text.replace("%logo.svg%", localizationInfo["logo.svg"])
 
     text = text.replace("%logo.png%", localizationInfo["logo.png"])
 
-    text = text.replace("%logo-white.svg%",
-                        localizationInfo["logo-white.svg"])
+    text = text.replace("%logo-white.svg%", localizationInfo["logo-white.svg"])
 
-    text = text.replace("%apple-touch-icon.png%",
-                        localizationInfo["apple-touch-icon.png"])
+    text = text.replace("%apple-touch-icon.png%", localizationInfo["apple-touch-icon.png"])	
+	
+	text = text.replace("%Facebook%", localizationInfo["Facebook"])
+	
+	text = text.replace("%Twitter%", localizationInfo["Twitter"])
+	
+	text = text.replace("%Instagram%", localizationInfo["Instagram"])
+	
+	text = text.replace("%Youtube%", localizationInfo["Youtube"])
+	
+	text = text.replace("%Linkedin%", localizationInfo["Linkedin"])
+	
+	text = text.replace("%Reddit%", localizationInfo["Reddit"])
+	
+	text = text.replace("%Telegram%", localizationInfo["Telegram"])	
+	
+	text = text.replace("%Appstore%", localizationInfo["Appstore"])
+	
+	text = text.replace("%Googleplay%", localizationInfo["Googleplay"])
+	
+	text = text.replace("%AssetLogo.svg%", localizationInfo["AssetLogo.svg"])
+	
+	text = text.replace("%DomainName%", localizationInfo["DomainName"])	
 
     f.close()
 

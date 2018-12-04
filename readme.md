@@ -22,3 +22,14 @@ To run the script please specify the comman like:
 * %logo.png%
 * %logo-white.svg%
 * %apple-touch-icon.png%
+* %Facebook%	
+* %Twitter%
+* %Instagram%
+* %Youtube%
+* %Linkedin%
+* %Reddit%
+* %Telegram%
+* %Appstore%
+* %Googleplay%
+* %AssetLogo.svg%
+* %DomainName%
