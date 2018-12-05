@@ -55,29 +55,29 @@ def Localize(file_name):
 
     text = text.replace("%logo-white.svg%", localizationInfo["logo-white.svg"])
 
-    text = text.replace("%apple-touch-icon.png%", localizationInfo["apple-touch-icon.png"])	
-	
-	text = text.replace("%Facebook%", localizationInfo["Facebook"])
-	
-	text = text.replace("%Twitter%", localizationInfo["Twitter"])
-	
-	text = text.replace("%Instagram%", localizationInfo["Instagram"])
-	
-	text = text.replace("%Youtube%", localizationInfo["Youtube"])
-	
-	text = text.replace("%Linkedin%", localizationInfo["Linkedin"])
-	
-	text = text.replace("%Reddit%", localizationInfo["Reddit"])
-	
-	text = text.replace("%Telegram%", localizationInfo["Telegram"])	
-	
-	text = text.replace("%Appstore%", localizationInfo["Appstore"])
-	
-	text = text.replace("%Googleplay%", localizationInfo["Googleplay"])
-	
-	text = text.replace("%AssetLogo.svg%", localizationInfo["AssetLogo.svg"])
-	
-	text = text.replace("%DomainName%", localizationInfo["DomainName"])	
+    text = text.replace("%apple-touch-icon.png%", localizationInfo["apple-touch-icon.png"])
+    
+    text = text.replace("%Facebook%", localizationInfo["Facebook"])
+
+    text = text.replace("%Twitter%", localizationInfo["Twitter"])
+
+    text = text.replace("%Instagram%", localizationInfo["Instagram"])
+
+    text = text.replace("%Youtube%", localizationInfo["Youtube"])
+
+    text = text.replace("%Linkedin%", localizationInfo["Linkedin"])
+
+    text = text.replace("%Reddit%", localizationInfo["Reddit"])
+
+    text = text.replace("%Telegram%", localizationInfo["Telegram"])	
+
+    text = text.replace("%Appstore%", localizationInfo["Appstore"])
+
+    text = text.replace("%Googleplay%", localizationInfo["Googleplay"])
+
+    text = text.replace("%AssetLogo.svg%", localizationInfo["AssetLogo.svg"])
+
+    text = text.replace("%DomainName%", localizationInfo["DomainName"])	
 
     f.close()
 
